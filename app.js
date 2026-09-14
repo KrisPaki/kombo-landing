@@ -86,3 +86,26 @@ reducedMotion.addEventListener('change', () => {
   updatePhotoMotion();
   synchronizeVideos();
 });
+
+// Optional service sections stay quiet until a visitor asks for the details.
+const offerSections = [...document.querySelectorAll('[data-collapsible]')];
+function setOfferState(section, open, focusToggle = false) {
+  const toggle = section.querySelector('.offer-toggle');
+  section.classList.toggle('is-collapsed', !open);
+  toggle.setAttribute('aria-expanded', String(open));
+  toggle.querySelector('strong').firstChild.textContent = open
+    ? (section.id === 'strategia' ? 'Zwiń strategię ' : 'Zwiń abonament ')
+    : (section.id === 'strategia' ? 'Rozwiń strategię ' : 'Rozwiń abonament ');
+  if (focusToggle) toggle.focus({ preventScroll: true });
+}
+for (const section of offerSections) {
+  section.querySelector('.offer-toggle').addEventListener('click', () => {
+    setOfferState(section, section.classList.contains('is-collapsed'));
+  });
+}
+for (const link of document.querySelectorAll('.offer-navigation a')) {
+  link.addEventListener('click', () => {
+    const target = document.querySelector(link.hash);
+    if (target?.matches('[data-collapsible]')) setOfferState(target, true);
+  });
+}
