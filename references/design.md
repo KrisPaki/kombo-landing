@@ -16,3 +16,9 @@ Układ: pigułkowa nawigacja z PDF; wielki czerwony wordmark; po lewej nagłówe
 [Duży kontakt + mail + telefon + vCard              ]
 
 Weryfikacja kierunku: czerwony, biel, typografia i nawigacja wynikają bezpośrednio z PDF. Zamiast budynku z okładki używamy fotografii gastronomicznej, ponieważ odbiorcami są restauracje, kawiarnie i marki food. Bez wymyślonych referencji, statystyk, recenzji ani nowej identyfikacji. Fotografie z portfolio podpisane jako prace Krystiana Pakieły.
+
+## Rozbudowa o video i widoczny podgląd galerii
+
+Zachowana paleta i typografia. Przed fotografiami pojawia się sekcja filmowa: szeroka realizacja Nespresso × Kinoteka obok pionowego showreela, pod nimi cztery rolki. Oryginalne proporcje materiałów zachowane. Filmy bez dźwięku, w pętli, z natywnymi kontrolkami i pauzą poza ekranem.
+
+Pod siatką zdjęć widoczny pas kilkunastu dodatkowych fotografii, przesuwający się powoli jak stykówka. Wyraźne rozwinięcie galerii i pauza animacji. Ruch służy pokazaniu ukrytych prac; bez animowania wszystkich nagłówków i sekcji. Preferencja ograniczonego ruchu wyłącza automatyczny ruch i autoplay.

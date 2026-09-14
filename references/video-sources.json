@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "showreel",
+    "original": "show reel 2025 09 .mov",
+    "file": "assets/video/showreel.mp4",
+    "poster": "assets/video/showreel.jpg",
+    "bytes": 6535321
+  },
+  {
+    "slug": "nespresso-kinoteka",
+    "original": "Nesspresso x Kinoteka - K.Pakiela - Video .mov",
+    "file": "assets/video/nespresso-kinoteka.mp4",
+    "poster": "assets/video/nespresso-kinoteka.jpg",
+    "bytes": 13389468
+  },
+  {
+    "slug": "spedz-dzien",
+    "original": "spedz dzien.mov",
+    "file": "assets/video/spedz-dzien.mp4",
+    "poster": "assets/video/spedz-dzien.jpg",
+    "bytes": 5660228
+  },
+  {
+    "slug": "oddychanie",
+    "original": "oddychanie .mov",
+    "file": "assets/video/oddychanie.mp4",
+    "poster": "assets/video/oddychanie.jpg",
+    "bytes": 2276726
+  },
+  {
+    "slug": "przepis-na-ciastka",
+    "original": "Przepis na Ciasstka - IG SONG - driving by lofi muspace-.mov",
+    "file": "assets/video/przepis-na-ciastka.mp4",
+    "poster": "assets/video/przepis-na-ciastka.jpg",
+    "bytes": 8620725
+  },
+  {
+    "slug": "foremki",
+    "original": "Foremki - kolorowe - song name for IG - Eric Godlow - Peace.mov",
+    "file": "assets/video/foremki.mp4",
+    "poster": "assets/video/foremki.jpg",
+    "bytes": 3942020
+  }
+]
