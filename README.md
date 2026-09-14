@@ -27,7 +27,8 @@ Następnie otwórz http://localhost:8765.
 Workflow `.github/workflows/pages.yml` publikuje stronę po pushu na `main`.
 W repozytorium wybierz **Settings → Pages → Source → GitHub Actions**.
 Workflow wysyła wyłącznie `index.html`, `style.css`, `app.js` i `assets/`.
-Po uzyskaniu publicznego adresu warto zmienić `og:image` na pełny URL oraz dodać canonical i `og:url`.
+Publiczny adres: https://krispaki.github.io/kombo-landing/
+Metadane Open Graph i canonical wskazują ten adres.
 
 ## Skille
 
