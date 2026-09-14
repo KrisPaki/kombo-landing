@@ -10,9 +10,9 @@ class P(HTMLParser):
   if t=='img' and u.startswith('https://cdn.myportfolio.com/') and u not in self.urls:self.urls.append(u)
 p=P();p.feed(Path('/tmp/kombo-food-source.html').read_text())
 def get(item):
- i,u=item;dest=ROOT/'assets'/f'food-{i:02}.jpg'
+ i,u=item;dest=ROOT/'references'/'original-photos'/f'food-{i:02}.jpg';dest.parent.mkdir(parents=True,exist_ok=True)
  if not dest.exists():urllib.request.urlretrieve(u,dest)
- return {'id':i,'source':u,'file':str(dest.relative_to(ROOT))}
+ return {'id':i,'source':u,'file':f'assets/food-{i:02}.webp','thumbnail':f'assets/food-{i:02}-sm.webp'}
 with ThreadPoolExecutor(max_workers=8) as pool:r=list(pool.map(get,enumerate(p.urls,1)))
 (ROOT/'references'/'image-sources.json').write_text(json.dumps(r,indent=2))
 print('Downloaded',len(r),'photos')

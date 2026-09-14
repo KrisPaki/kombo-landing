@@ -35,7 +35,7 @@ Zainstalowane również lokalnie w `~/.codex/skills/`:
 - `frontend-design` — https://github.com/anthropics/skills/tree/main/skills/frontend-design
 - `web-design-guidelines` — https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines
 
-Kopie z licencjami znajdują się w `.agents/skills/`, tak aby skille trafiły do repozytorium wraz ze stroną.
+Kopie skilli (oraz dołączona przez Anthropic licencja) znajdują się w `.agents/skills/`, tak aby skille trafiły do repozytorium wraz ze stroną.
 
 ## Źródła i prawa
 
