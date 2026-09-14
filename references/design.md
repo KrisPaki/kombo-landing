@@ -22,3 +22,9 @@ Weryfikacja kierunku: czerwony, biel, typografia i nawigacja wynikają bezpośre
 Zachowana paleta i typografia. Przed fotografiami pojawia się sekcja filmowa: szeroka realizacja Nespresso × Kinoteka obok pionowego showreela, pod nimi cztery rolki. Oryginalne proporcje materiałów zachowane. Filmy bez dźwięku, w pętli, z natywnymi kontrolkami i pauzą poza ekranem.
 
 Pod siatką zdjęć widoczny pas kilkunastu dodatkowych fotografii, przesuwający się powoli jak stykówka. Wyraźne rozwinięcie galerii i pauza animacji. Ruch służy pokazaniu ukrytych prac; bez animowania wszystkich nagłówków i sekcji. Preferencja ograniczonego ruchu wyłącza automatyczny ruch i autoplay.
+
+## Korekta po przeglądzie z właścicielem
+
+Strategia jako pierwszy, pełny blok oferty: ciemne tło, czerwony nagłówek, portret i podpis Michała oraz trzy widoczne pakiety. Jednorazowa produkcja i abonament również od razu widoczne, bez akordeonów. Ceny i zakres z PDF bez zmian.
+Filmy: Nespresso i ciastka u góry; showreel, Spędź dzień, Foremki, Oddychanie na dole. Pionowe odtwarzacze zachowują 9:16 bez ograniczenia wysokości powodującego boczne pasy.
+Fotografia: zachowane szef kuchni (32) i butelka (56); pozostałe kadry zastąpione daniem (62), lodami (46), kawą (37) i deserem czekoladowym (13).
