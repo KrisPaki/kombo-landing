@@ -30,23 +30,11 @@ let photosPaused = reducedMotion.matches;
 const touchDevice = window.matchMedia('(hover: none), (pointer: coarse)').matches || navigator.maxTouchPoints > 1;
 if (touchDevice) {
   document.documentElement.classList.add('touch-gallery');
-  // Build two independent columns from intrinsic image ratios. This preserves
-  // the irregular portfolio rhythm without Safari's unstable CSS columns.
-  const archive = document.querySelector('.archive-grid');
-  const archiveLinks = [...archive.querySelectorAll(':scope > a')];
-  const archiveColumns = [document.createElement('div'), document.createElement('div')];
-  const columnHeights = [0, 0];
-  archiveColumns.forEach(column => { column.className = 'archive-column'; });
-  archiveLinks.forEach(link => {
+  // Keep every tile visible to Safari without its unstable CSS columns.
+  document.querySelectorAll('.archive-grid a').forEach(link => {
     link.style.contentVisibility = 'visible';
     link.style.containIntrinsicSize = 'auto';
-    const thumbnail = link.querySelector('img');
-    const aspectHeight = Number(thumbnail.getAttribute('height')) / Number(thumbnail.getAttribute('width'));
-    const targetColumn = columnHeights[0] <= columnHeights[1] ? 0 : 1;
-    archiveColumns[targetColumn].append(link);
-    columnHeights[targetColumn] += aspectHeight;
   });
-  archive.replaceChildren(...archiveColumns);
 }
 if (!touchDevice && !reducedMotion.matches) {
   const duplicate = previewGroup.cloneNode(true);
