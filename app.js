@@ -28,6 +28,13 @@ let photosPaused = reducedMotion.matches;
 // iPadOS/Safari can flash while compositing a continuously moving, duplicated
 // image strip. Touch devices get a stable, native scrollable contact sheet.
 const touchDevice = window.matchMedia('(hover: none), (pointer: coarse)').matches || navigator.maxTouchPoints > 1;
+if (touchDevice) {
+  // Avoid iPadOS reflow flashes when the full masonry gallery is opened.
+  document.querySelectorAll('.archive-grid a').forEach(link => {
+    link.style.contentVisibility = 'visible';
+    link.style.containIntrinsicSize = 'auto';
+  });
+}
 if (!touchDevice && !reducedMotion.matches) {
   const duplicate = previewGroup.cloneNode(true);
   duplicate.setAttribute('aria-hidden', 'true');
