@@ -45,5 +45,6 @@
 /* iPadOS: keep the expanded archive in a stable vertical flow. */
 html.touch-gallery .gallery-teaser:has(+ .full-gallery[open]){display:block}
 html.touch-gallery .archive-grid{columns:auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;align-items:start}
+html.touch-gallery .archive-column{display:flex;flex-direction:column;gap:10px;min-width:0}
 html.touch-gallery .archive-grid a{display:block;margin:0;min-width:0;content-visibility:visible!important;contain:none!important}
 html.touch-gallery .archive-grid img{width:100%;height:auto}
