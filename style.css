@@ -41,3 +41,9 @@
 /* The offer reads in the client's journey: production, continuity, then strategy. */
 .pricing{display:flex;flex-direction:column}.pricing>.section-heading{order:1}.pricing>.offer-navigation{order:2}.pricing>#produkcja{order:3}.pricing>#abonament{order:4}.pricing>#strategia{order:5}.pricing>.offer-footnote{order:6}
 .strategy-packages{counter-reset:strategy}.strategy-package{position:relative;overflow:hidden;counter-increment:strategy}.strategy-package::before{content:'0' counter(strategy);display:block;color:#777;font-size:11px;letter-spacing:.08em;margin-bottom:24px}.strategy-package:nth-child(2){background:#303030;border-top-color:#888}.strategy-package:nth-child(3){background:#3a1b1b;border-top-color:var(--red)}
+
+/* iPadOS: keep the expanded archive in a stable vertical flow. */
+html.touch-gallery .gallery-teaser:has(+ .full-gallery[open]){display:block}
+html.touch-gallery .archive-grid{columns:auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;align-items:start}
+html.touch-gallery .archive-grid a{display:block;margin:0;min-width:0;content-visibility:visible!important;contain:none!important}
+html.touch-gallery .archive-grid img{width:100%;height:auto}

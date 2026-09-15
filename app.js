@@ -29,6 +29,7 @@ let photosPaused = reducedMotion.matches;
 // image strip. Touch devices get a stable, native scrollable contact sheet.
 const touchDevice = window.matchMedia('(hover: none), (pointer: coarse)').matches || navigator.maxTouchPoints > 1;
 if (touchDevice) {
+  document.documentElement.classList.add('touch-gallery');
   // Avoid iPadOS reflow flashes when the full masonry gallery is opened.
   document.querySelectorAll('.archive-grid a').forEach(link => {
     link.style.contentVisibility = 'visible';
