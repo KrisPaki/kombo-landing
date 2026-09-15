@@ -25,15 +25,21 @@ const previewGroup = document.querySelector('.preview-group');
 const motionToggle = document.querySelector('.motion-toggle');
 const gallery = document.querySelector('.full-gallery');
 let photosPaused = reducedMotion.matches;
-const duplicate = previewGroup.cloneNode(true);
-duplicate.setAttribute('aria-hidden', 'true');
-duplicate.querySelectorAll('a').forEach(link => link.tabIndex = -1);
-previewGroup.parentNode.append(duplicate);
+// iPadOS/Safari can flash while compositing a continuously moving, duplicated
+// image strip. Touch devices get a stable, native scrollable contact sheet.
+const touchDevice = window.matchMedia('(hover: none), (pointer: coarse)').matches || navigator.maxTouchPoints > 1;
+if (!touchDevice && !reducedMotion.matches) {
+  const duplicate = previewGroup.cloneNode(true);
+  duplicate.setAttribute('aria-hidden', 'true');
+  duplicate.querySelectorAll('a').forEach(link => link.tabIndex = -1);
+  previewGroup.parentNode.append(duplicate);
+}
 function updatePhotoMotion() {
-  teaser.classList.toggle('is-paused', photosPaused || reducedMotion.matches);
-  motionToggle.setAttribute('aria-pressed', String(photosPaused || reducedMotion.matches));
-  motionToggle.textContent = reducedMotion.matches ? 'Przesuń zdjęcia palcem lub gładzikiem' : photosPaused ? 'Wznów ruch zdjęć' : 'Wstrzymaj ruch zdjęć';
-  motionToggle.disabled = reducedMotion.matches;
+  const motionUnavailable = reducedMotion.matches || touchDevice;
+  teaser.classList.toggle('is-paused', photosPaused || motionUnavailable);
+  motionToggle.setAttribute('aria-pressed', String(photosPaused || motionUnavailable));
+  motionToggle.textContent = motionUnavailable ? 'Przesuń zdjęcia palcem lub gładzikiem' : photosPaused ? 'Wznów ruch zdjęć' : 'Wstrzymaj ruch zdjęć';
+  motionToggle.disabled = motionUnavailable;
 }
 motionToggle.addEventListener('click', () => { photosPaused = !photosPaused; updatePhotoMotion(); });
 new IntersectionObserver(([entry]) => {
