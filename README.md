@@ -16,8 +16,8 @@ Następnie otwórz http://localhost:8765.
 
 - Identyfikacja z PDF-u: Poppins, czerwień, biel, czerń, duża typografia.
 - Portfolio: wybrane realizacje, ruchomy podgląd 12 dodatkowych zdjęć i pełna rozwijana galeria 65 zdjęć.
-- Dziesięć pełnych realizacji video — 6 dotychczasowych i 4 nowe poziome: automatyczne odtwarzanie bez dźwięku, pętla, natywne kontrolki, pauza poza ekranem i obsługa ograniczonego ruchu.
-- Wersje video H.264/AAC MP4 (około 86 MB łącznie); źródła zapisane w `references/video-sources.json`.
+- Dwanaście pełnych realizacji video — 6 dotychczasowych i 6 nowych poziomych: automatyczne odtwarzanie bez dźwięku, pętla, natywne kontrolki, pauza poza ekranem i obsługa ograniczonego ruchu.
+- Wersje video H.264/AAC MP4 (około 93 MB łącznie); źródła zapisane w `references/video-sources.json`.
 - Strategia, produkcja foto/video, obsługa social media.
 - Pakiety jednorazowe, abonamenty i strategia zgodnie z prezentacją.
 - Portrety i opis Michała Traczyka oraz Krystiana Pakieły.

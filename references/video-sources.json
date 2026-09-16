@@ -42,11 +42,25 @@
     "bytes": 3942020
   },
   {
+    "slug": "czarek",
+    "original": "Desktop/Video pion /CZAREK 1 .mov",
+    "file": "assets/video/czarek.mp4",
+    "poster": "assets/video/czarek.jpg",
+    "bytes": 2686137
+  },
+  {
     "slug": "greenmax",
     "original": "Desktop/Video pion /GreenMax_prev_08092025.MP4",
     "file": "assets/video/greenmax.mp4",
     "poster": "assets/video/greenmax.jpg",
     "bytes": 4052663
+  },
+  {
+    "slug": "niunia-kas",
+    "original": "Desktop/Video pion /Niunia kas .mov",
+    "file": "assets/video/niunia-kas.mp4",
+    "poster": "assets/video/niunia-kas.jpg",
+    "bytes": 4234144
   },
   {
     "slug": "rozlewnia-metali",
