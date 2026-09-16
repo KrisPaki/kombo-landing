@@ -27,4 +27,5 @@ Pod siatką zdjęć widoczny pas kilkunastu dodatkowych fotografii, przesuwając
 
 Strategia jako pierwszy, pełny blok oferty: ciemne tło, czerwony nagłówek, portret i podpis Michała oraz trzy widoczne pakiety. Jednorazowa produkcja i abonament również od razu widoczne, bez akordeonów. Ceny i zakres z PDF bez zmian.
 Filmy: Nespresso i ciastka u góry; showreel, Spędź dzień, Foremki, Oddychanie na dole. Pionowe odtwarzacze zachowują 9:16 bez ograniczenia wysokości powodującego boczne pasy.
+Cztery dodatkowe realizacje poziome tworzą osobny, dwukolumnowy pas pod rolkami. Czerwona linia rozdziela formaty, a na telefonie wszystkie poziome filmy układają się pojedynczo.
 Fotografia: zachowane szef kuchni (32) i butelka (56); pozostałe kadry zastąpione daniem (62), lodami (46), kawą (37) i deserem czekoladowym (13).

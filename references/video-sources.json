@@ -40,5 +40,33 @@
     "file": "assets/video/foremki.mp4",
     "poster": "assets/video/foremki.jpg",
     "bytes": 3942020
+  },
+  {
+    "slug": "greenmax",
+    "original": "Desktop/Video pion /GreenMax_prev_08092025.MP4",
+    "file": "assets/video/greenmax.mp4",
+    "poster": "assets/video/greenmax.jpg",
+    "bytes": 4052663
+  },
+  {
+    "slug": "rozlewnia-metali",
+    "original": "Desktop/Video pion /ROZLEWNIA METALI_V3.mp4",
+    "file": "assets/video/rozlewnia-metali.mp4",
+    "poster": "assets/video/rozlewnia-metali.jpg",
+    "bytes": 21840121
+  },
+  {
+    "slug": "bigram",
+    "original": "Desktop/Video pion /poprawki ver 5.mov",
+    "file": "assets/video/bigram.mp4",
+    "poster": "assets/video/bigram.jpg",
+    "bytes": 8736562
+  },
+  {
+    "slug": "gobrain",
+    "original": "Desktop/Video pion /wersja 2.mov",
+    "file": "assets/video/gobrain.mp4",
+    "poster": "assets/video/gobrain.jpg",
+    "bytes": 11320218
   }
 ]
