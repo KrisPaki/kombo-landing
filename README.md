@@ -24,13 +24,16 @@ Następnie otwórz http://localhost:8765.
 - Klikalny telefon i e-mail, kontakt vCard, oferta PDF.
 - Responsywny układ, obsługa klawiaturą, podgląd fotografii, ograniczony ruch.
 
-## GitHub Pages
+## GitHub Pages i domena własna
 
 Workflow `.github/workflows/pages.yml` publikuje stronę po pushu na `main`.
 W repozytorium wybierz **Settings → Pages → Source → GitHub Actions**.
 Workflow wysyła wyłącznie `index.html`, `style.css`, `app.js` i `assets/`.
-Publiczny adres: https://krispaki.github.io/kombo-landing/
-Metadane Open Graph i canonical wskazują ten adres.
+Publiczny adres docelowy: https://kombounit.pl/
+Plik `CNAME` wskazuje domenę główną. W GitHubie ustaw ją także w **Settings → Pages → Custom domain**.
+Metadane Open Graph i canonical wskazują domenę własną.
+
+DNS dla `kombounit.pl` (GitHub Pages): rekordy `A` dla hosta `@` na `185.199.108.153`, `185.199.109.153`, `185.199.110.153` i `185.199.111.153`; opcjonalnie `CNAME` dla `www` wskazujący `krispaki.github.io`.
 
 ## Skille
 
