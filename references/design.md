@@ -1,4 +1,4 @@
-# KOMBO.unit — kierunek strony
+# KOMBOUNIT — kierunek strony
 
 Brief: landing page duetu na targi żywności i kawy, identyfikacja z KOMBO.unit_oferta_content.pdf, prawdziwe zdjęcia z krystianpakiela.pl/foodphotography.
 

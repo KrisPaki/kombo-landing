@@ -1,6 +1,6 @@
-# KOMBO.unit — landing page food & coffee
+# KOMBOUNIT — landing page food & coffee
 
-Gotowa strona w HTML, CSS i JavaScript, przygotowana na podstawie prezentacji KOMBO.unit i portfolio Krystiana Pakieły. Bez procesu budowania i bez zewnętrznych zależności podczas wyświetlania.
+Gotowa strona w HTML, CSS i JavaScript, przygotowana na podstawie prezentacji KOMBOUNIT i portfolio Krystiana Pakieły. Bez procesu budowania i bez zewnętrznych zależności podczas wyświetlania.
 
 ## Podgląd
 
